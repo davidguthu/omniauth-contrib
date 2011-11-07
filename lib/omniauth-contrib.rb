@@ -4,6 +4,7 @@ require "omniauth"
 module OmniAuth
   module Strategies
     autoload :VKontakte,  'omniauth/strategies/vkontakte'
+    autoload :Yahoo,  'omniauth/strategies/yahoo'
   end
 end
 
